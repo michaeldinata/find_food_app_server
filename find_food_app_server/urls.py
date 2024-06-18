@@ -18,6 +18,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('findfood/', include('server.urls')),
+    path('findfood/api/v1/', include('server.urls')),
     path('admin/', admin.site.urls),
 ]
