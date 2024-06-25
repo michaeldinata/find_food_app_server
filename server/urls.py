@@ -18,7 +18,8 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path("home/", views.index, name="index"),
     path("login/", views.login, name="login"),
     path("signup/", views.signup, name="signup"),
+    path("csrf/", views.get_csrf, name="csrf"),
+    path("session/", views.session_view, name="session"),
 ]
