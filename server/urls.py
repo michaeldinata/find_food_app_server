@@ -22,4 +22,5 @@ urlpatterns = [
     path("signup/", views.signup, name="signup"),
     path("csrf/", views.get_csrf, name="csrf"),
     path("session/", views.session_view, name="session"),
+    path("findmefood/", views.findfood, name="findmefood")
 ]
